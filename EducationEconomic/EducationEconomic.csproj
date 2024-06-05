@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F579FD9B-15FE-43FF-A93E-1EBC4FDC43D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EducationEconomic</RootNamespace>
+    <AssemblyName>EducationEconomic</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="akef1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="akef1.Designer.cs">
+      <DependentUpon>akef1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="akef2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="akef2.Designer.cs">
+      <DependentUpon>akef2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="akef3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="akef3.Designer.cs">
+      <DependentUpon>akef3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="akef4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="akef4.Designer.cs">
+      <DependentUpon>akef4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="akef5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="akef5.Designer.cs">
+      <DependentUpon>akef5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aode.Designer.cs">
+      <DependentUpon>aode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aodquiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aodquiz.Designer.cs">
+      <DependentUpon>aodquiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aodquiz1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aodquiz1.Designer.cs">
+      <DependentUpon>aodquiz1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aodquiz2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aodquiz2.Designer.cs">
+      <DependentUpon>aodquiz2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aodquiz3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aodquiz3.Designer.cs">
+      <DependentUpon>aodquiz3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aodquiz4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aodquiz4.Designer.cs">
+      <DependentUpon>aodquiz4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aodquiz5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aodquiz5.Designer.cs">
+      <DependentUpon>aodquiz5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aoth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aoth.Designer.cs">
+      <DependentUpon>aoth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aquiz1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aquiz1.Designer.cs">
+      <DependentUpon>aquiz1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aquiz2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aquiz2.Designer.cs">
+      <DependentUpon>aquiz2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aquiz3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aquiz3.Designer.cs">
+      <DependentUpon>aquiz3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aquiz4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aquiz4.Designer.cs">
+      <DependentUpon>aquiz4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aquiz5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aquiz5.Designer.cs">
+      <DependentUpon>aquiz5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="arx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arx.Designer.cs">
+      <DependentUpon>arx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Choice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choice.Designer.cs">
+      <DependentUpon>Choice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="epilogkathigit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="epilogkathigit.Designer.cs">
+      <DependentUpon>epilogkathigit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="final1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="final1.Designer.cs">
+      <DependentUpon>final1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="final2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="final2.Designer.cs">
+      <DependentUpon>final2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\arxiki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\arxiki.Designer.cs">
+      <DependentUpon>arxiki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="startkathig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startkathig.Designer.cs">
+      <DependentUpon>startkathig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stat.Designer.cs">
+      <DependentUpon>stat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kef2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kef2.Designer.cs">
+      <DependentUpon>kef2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kef3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kef3.Designer.cs">
+      <DependentUpon>kef3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kef4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kef4.Designer.cs">
+      <DependentUpon>kef4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kef5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kef5.Designer.cs">
+      <DependentUpon>kef5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kefff1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kefff1.Designer.cs">
+      <DependentUpon>kefff1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mailform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mailform.Designer.cs">
+      <DependentUpon>mailform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quizform1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quizform1.Designer.cs">
+      <DependentUpon>quizform1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="quizz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quizz.Designer.cs">
+      <DependentUpon>quizz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sendemail.cs" />
+    <Compile Include="statkathigit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statkathigit.Designer.cs">
+      <DependentUpon>statkathigit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="theory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="theory.Designer.cs">
+      <DependentUpon>theory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="akef1.resx">
+      <DependentUpon>akef1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="akef2.resx">
+      <DependentUpon>akef2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="akef3.resx">
+      <DependentUpon>akef3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="akef4.resx">
+      <DependentUpon>akef4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="akef5.resx">
+      <DependentUpon>akef5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aode.resx">
+      <DependentUpon>aode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aodquiz.resx">
+      <DependentUpon>aodquiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aodquiz1.resx">
+      <DependentUpon>aodquiz1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aodquiz2.resx">
+      <DependentUpon>aodquiz2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aodquiz3.resx">
+      <DependentUpon>aodquiz3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aodquiz4.resx">
+      <DependentUpon>aodquiz4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aodquiz5.resx">
+      <DependentUpon>aodquiz5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aoth.resx">
+      <DependentUpon>aoth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aquiz1.resx">
+      <DependentUpon>aquiz1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aquiz2.resx">
+      <DependentUpon>aquiz2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aquiz3.resx">
+      <DependentUpon>aquiz3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aquiz4.resx">
+      <DependentUpon>aquiz4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aquiz5.resx">
+      <DependentUpon>aquiz5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arx.resx">
+      <DependentUpon>arx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Choice.resx">
+      <DependentUpon>Choice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="epilogkathigit.resx">
+      <DependentUpon>epilogkathigit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="final1.resx">
+      <DependentUpon>final1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="final2.resx">
+      <DependentUpon>final2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kef2.resx">
+      <DependentUpon>kef2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kef3.resx">
+      <DependentUpon>kef3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kef4.resx">
+      <DependentUpon>kef4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kef5.resx">
+      <DependentUpon>kef5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kefff1.resx">
+      <DependentUpon>kefff1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mailform.resx">
+      <DependentUpon>mailform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="quizform1.resx">
+      <DependentUpon>quizform1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quizz.resx">
+      <DependentUpon>quizz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\arxiki.resx">
+      <DependentUpon>arxiki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startkathig.resx">
+      <DependentUpon>startkathig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stat.resx">
+      <DependentUpon>stat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statkathigit.resx">
+      <DependentUpon>statkathigit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="theory.resx">
+      <DependentUpon>theory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\intr.rtf" />
+    <None Include="Resources\rd.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\es.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
